@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const URL = "https://api.thecatapi.com/v1/"
-const API_KEY = '74b19a41-dd42-42ed-8a23-4e4c0a6070fb'
 
 function App() {
   const [error, setError] = useState(null);
